@@ -66,6 +66,11 @@ namespace challengeEpicSpiesAssetTracker
             ViewState["Asset"] = asset;
             ViewState["Election"] = election;
             ViewState["SubTF"] = subTF;
+
+            //clear out text boxes
+            assetTextBox.Text = "";
+            electionTextBox.Text = "";
+            subTFTextBox.Text = "";
         }
     }
 }
